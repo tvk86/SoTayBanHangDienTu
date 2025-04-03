@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">QuanLySanPham</string>
+    <string name="title_product_details">DANH SÁCH CHI TIẾT SẢN PHẨM</string>
+    <string name="label_product_name">Tên Sản Phẩm:</string>
+    <string name="hint_product_name">Nhập tên sản phẩm</string>
+    <string name="label_unit_price">Đơn giá (VNĐ):</string>
+    <string name="hint_unit_price">Nhập đơn giá</string>
+    <string name="label_selling_price">Giá bán (VNĐ):</string>
+    <string name="hint_selling_price">Nhập giá bán</string>
+    <string name="label_unit">Đơn vị tính:</string>
+    <string name="hint_unit">Nhập đơn vị tính</string>
+    <string name="label_description">Mô tả:</string>
+    <string name="hint_description">Nhập mô tả</string>
+    <string name="content_desc_back_button">Quay lại</string>
+    <string name="content_desc_user_icon">Biểu tượng người dùng</string>
+</resources>
