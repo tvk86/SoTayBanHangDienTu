@@ -31,9 +31,8 @@ android {
         targetCompatibility = JavaVersion.VERSION_11
     }
 
-    packagingOptions {
-        // Loại bỏ tệp INDEX.LIST gây xung đột
-        exclude("META-INF/INDEX.LIST")
+    packaging {
+        resources.excludes.add("META-INF/DEPENDENCIES")
     }
 }
 
