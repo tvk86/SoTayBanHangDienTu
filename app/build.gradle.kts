@@ -25,9 +25,15 @@ android {
             )
         }
     }
+
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_11
         targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    packagingOptions {
+        // Loại bỏ tệp INDEX.LIST gây xung đột
+        exclude("META-INF/INDEX.LIST")
     }
 }
 
